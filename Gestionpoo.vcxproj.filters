@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Composants">
+      <UniqueIdentifier>{520b6833-bf27-4a78-bbfa-8da91f326524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Services">
+      <UniqueIdentifier>{8d74adbd-de7a-4a39-9367-a3bbb0df1d92}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ListeStock.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Composants</Filter>
+    </ClCompile>
+    <ClCompile Include="Commande.cpp">
+      <Filter>Composants</Filter>
+    </ClCompile>
+    <ClCompile Include="Personne.cpp">
+      <Filter>Composants</Filter>
+    </ClCompile>
+    <ClCompile Include="Personnel.cpp">
+      <Filter>Composants</Filter>
+    </ClCompile>
+    <ClCompile Include="Liste.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Listepersonnel.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Listeclient.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Listecommande.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Adresse.cpp">
+      <Filter>Composants</Filter>
+    </ClCompile>
+    <ClCompile Include="Article.cpp">
+      <Filter>Composants</Filter>
+    </ClCompile>
+    <ClCompile Include="CAD.cpp">
+      <Filter>Composants</Filter>
+    </ClCompile>
+    <ClCompile Include="Choisir.cpp">
+      <Filter>Composants</Filter>
+    </ClCompile>
+    <ClCompile Include="Paiement.cpp">
+      <Filter>Composants</Filter>
+    </ClCompile>
+    <ClCompile Include="Vivre.cpp">
+      <Filter>Composants</Filter>
+    </ClCompile>
+    <ClCompile Include="Ville.cpp">
+      <Filter>Composants</Filter>
+    </ClCompile>
+    <ClCompile Include="FicheArticle.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="FicheClient.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="FicheCommande.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="FicheEmploye.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SVC_Gstock.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="SVC_Gstatistique.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="SVC_Gpayement.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="SVC_Gemploye.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="SVC_Gcommande.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="SVC_Gclient.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="ListeStock.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Composants</Filter>
+    </ClInclude>
+    <ClInclude Include="Commande.h">
+      <Filter>Composants</Filter>
+    </ClInclude>
+    <ClInclude Include="Personnel.h">
+      <Filter>Composants</Filter>
+    </ClInclude>
+    <ClInclude Include="Liste.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Listepersonnel.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Listeclient.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Listecommande.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="FicheClient.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="FicheEmploye.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="FicheArticle.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="FicheCommande.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Adresse.h">
+      <Filter>Composants</Filter>
+    </ClInclude>
+    <ClInclude Include="Article.h">
+      <Filter>Composants</Filter>
+    </ClInclude>
+    <ClInclude Include="CAD.h">
+      <Filter>Composants</Filter>
+    </ClInclude>
+    <ClInclude Include="Choisir.h">
+      <Filter>Composants</Filter>
+    </ClInclude>
+    <ClInclude Include="Ville.h">
+      <Filter>Composants</Filter>
+    </ClInclude>
+    <ClInclude Include="Vivre.h">
+      <Filter>Composants</Filter>
+    </ClInclude>
+    <ClInclude Include="SVC_Gclient.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="SVC_Gcommande.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="SVC_Gemploye.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="SVC_Gpayement.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="SVC_Gstatistique.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="SVC_Gstock.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Paiement.h">
+      <Filter>Composants</Filter>
+    </ClInclude>
+    <ClInclude Include="Personne.h">
+      <Filter>Composants</Filter>
+    </ClInclude>
+    <ClInclude Include="FichePayement.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="right_arrow.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="minimize.png">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\icon pack\minimize.png">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\icon pack\arow_right.png">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
